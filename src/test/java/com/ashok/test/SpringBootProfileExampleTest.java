@@ -19,6 +19,8 @@ public class SpringBootProfileExampleTest {
 	public void contextLoads() {
 		logger.info("$$$$$$$$$$$$$$$$$$$$$$$$ contextLoads() test1 method is executed $$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
 		logger.info("$$$$$$$$$$$$$$$$$$$$$$$$ contextLoads() test2 method is executed $$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+		logger.info("$$$$$$$$$$$$$$$$$$$$$$$$ contextLoads() test3 method is executed $$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+
 		assertEquals(true, true);
 	}
 
